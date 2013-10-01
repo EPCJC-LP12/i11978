@@ -93,7 +93,7 @@ Partial Class Form1
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(265, 32)
+        Me.TextBox1.Location = New System.Drawing.Point(265, 48)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(100, 20)
         Me.TextBox1.TabIndex = 6
@@ -115,6 +115,7 @@ Partial Class Form1
         'TextBox4
         '
         Me.TextBox4.AllowDrop = True
+        Me.TextBox4.BackColor = System.Drawing.Color.LightGray
         Me.TextBox4.Location = New System.Drawing.Point(265, 204)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(100, 20)
@@ -122,6 +123,7 @@ Partial Class Form1
         '
         'TextBox5
         '
+        Me.TextBox5.BackColor = System.Drawing.Color.LightGray
         Me.TextBox5.Location = New System.Drawing.Point(265, 237)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(100, 20)
